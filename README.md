@@ -1,11 +1,13 @@
 # NorthAmerican_Salix
-Data files of manuscript Marincek et al. 2024 "Challenge accepted: Evolutionary lineages versus taxonomic classification of North American shrub willows (Salix)" Am J Bot
-(see Marincek et al., 2024 – American Journal of Botany for more details)
+Data files for manuscript Marinček et al. 2024 "Challenge accepted: Evolutionary lineages versus taxonomic classification of North American shrub willows (Salix)" Am J Bot
+(see Marinček et al., 2024 – American Journal of Botany for more details)
 
-202_samples_full_alignment.phy	  Concatenated alignment of 34,953 RADloci containing 4,226,091 bp and 202 samples
+### File descriptions ###
 
-NA_clade_alignment_usnps.nex	  alignment containing 34,680 unlinked SNP data for 102 samples of the North American clade 
+202_samples_full_alignment.phy        Concatenated alignment of 34,953 RADloci (total matrix = 4,226,091 bp) for the complete sampling of 202 samples
 
-80_samples_singletons_usnps.phy	  alignment containing 56,711 unlinked SNPs for 80 samples (singleton assembly)
+NA_clade_alignment_usnps.nex        Concatenated alignment containing 34,680 unlinked SNPs for 102 samples of the North American clade (Used for the SplitsTree)
 
-starting_tree_beast_snapper.new	  starting tree for the BEAST and SNAPPER analyses
+80_samples_singletons_usnps.phy	      Concatenated alignment containing 56,711 unlinked SNPs for 80 samples of single accessions per lineage (singletons assembly)
+
+starting_tree_beast_snapper.new	      Starting tree (newick format) for the BEAST and SNAPPER analyses
